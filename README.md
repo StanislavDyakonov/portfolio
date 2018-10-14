@@ -1,4 +1,4 @@
-# portfolio2.loc
+# portfolio
 
 ## Project setup
 ```
