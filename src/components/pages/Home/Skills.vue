@@ -1,5 +1,5 @@
 <template>
-    <div class="home-skills" id="home-skills">
+    <div class="home-skills section" id="home-skills">
         <header-block theme="black"></header-block>
         <under-block title="Навыки" theme="black"></under-block>
 

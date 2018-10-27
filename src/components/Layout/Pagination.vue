@@ -1,5 +1,5 @@
 <template>
-    <div class="pagination" v-if="init" :class="theme">
+    <div class="pagination" v-if="init && false" :class="theme">
         <item v-for="(item, key) in blocks" :item.sync="item" :key="'pkey' + key" @theme="onTheme"></item>
     </div>
 </template>

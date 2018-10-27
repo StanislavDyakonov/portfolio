@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# www. -> .
+RewriteCond %{HTTP_HOST} ^www.just-stas.ru$ [NC]
+RewriteRule ^(.*)$ https://just-stas.ru/$1 [R=301,L]
+
+# HTTPS
+RewriteCond %{SERVER_PORT} !^443$
+RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]

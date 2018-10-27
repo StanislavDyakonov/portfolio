@@ -1,5 +1,5 @@
 <template>
-    <div class="home-portfolio" id="home-portfolio">
+    <div class="home-portfolio section" id="home-portfolio">
         <under-block title="Портфолио"></under-block>
         <header-block></header-block>
 

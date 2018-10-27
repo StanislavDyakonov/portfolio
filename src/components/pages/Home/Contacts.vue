@@ -1,5 +1,5 @@
 <template>
-    <div class="home-contacts" id="home-contacts">
+    <div class="home-contacts section" id="home-contacts">
         <header-block theme="black"></header-block>
         <under-block title="Контакты" theme="black"></under-block>
 

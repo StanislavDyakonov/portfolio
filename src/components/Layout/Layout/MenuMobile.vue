@@ -64,7 +64,8 @@ export default {
     .menu {
         &-mobile {
             width: 376px;
-            height: 100vh;
+            max-height: calc(var(--vh, 1vh) * 100);
+            height: calc(var(--vh, 1vh) * 100);
 
             position: fixed;
             top: 0;
